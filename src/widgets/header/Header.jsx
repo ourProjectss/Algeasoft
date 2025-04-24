@@ -1,31 +1,30 @@
 import './header.scss';
 import { NavLink } from 'react-router-dom';
-import HeaderLogo from '../../shared/images/0algeasort logo  1.jpg'
-import HeaderGmail from '../../shared/images/envelope-alt.png'
-import HeaderPhone from '../../shared/images/phone.png'
-import { HomePage } from '../../pages/homePage/HomePage';
+import HeaderLogo from '../../shared/headfooterImg/logo (1).png'
+import HeaderGmail from '../../shared/headfooterImg/envelope-alt.png'
+import HeaderPhone from '../../shared/headfooterImg/phone.png'
 
 
 export const Header = () => {
   
 
   return (
-    <div className='header container'>
-      <div className='header-data'>
+    <div className='header'>
+      <div className='header-data container'>
         <div>
-          <img className='header-data-logo' src={HeaderLogo} alt="" />
+          <img className='header-data-logo headfooter-mainLogo' src={HeaderLogo} alt="" />
         </div>
         <div className='header-data-text'>
           <div className='header-data-text-first'>
-            <img className='header-data-text-first-logo' src={HeaderGmail} alt="" />
-            <h3 className='header-data-text-first-gmail'>INFO@MAIL.COM</h3>
+            <img className='header-data-text-first-logo headfooter-logo' src={HeaderGmail} alt="" />
+            <h3 className='header-data-text-first-gmail headfooter-gmail'>INFO@MAIL.COM</h3>
           </div>
           <div className='header-data-text-second'>
-            <img className='header-data-text-second-logo' src={HeaderPhone} alt="" />
-            <h3 className='header-data-text-second-number'>+7 (000)00 00 000</h3>
+            <img className='header-data-text-second-logo headfooter-logo' src={HeaderPhone} alt="" />
+            <h3 className='header-data-text-second-number headfooter-number'>+7 (000)00 00 000</h3>
           </div>
           <div className='header-data-text-button'>
-            <button className='header-data-text-button-text'>Заказать звонок</button>
+            <button className='header-data-text-button-text headfooter-button'>Заказать звонок</button>
           </div>
         </div>
       </div>
