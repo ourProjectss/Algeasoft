@@ -1,0 +1,32 @@
+.advantages {
+  display: flex;
+  text-align: center;
+  &_block {
+   
+    background-color: rgb(255, 255, 255);
+    margin: 2vw;
+    border: solid 0.5vw rgb(53, 139, 35);
+    border-radius: 1vw;
+    p {
+      font-size: 1.3vw;
+      padding: 1vw;
+      font-family: Roboto;
+font-weight: 500;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+
+    }
+    img {
+      width: 4vw;
+      padding: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .advantages {
+    display: none;
+  }
+}

@@ -1,15 +1,16 @@
 import './header.scss';
 import { NavLink } from 'react-router-dom';
-import HeaderLogo from '../../shared/headfooterImg/logo (1).png'
-import HeaderGmail from '../../shared/headfooterImg/envelope-alt.png'
-import HeaderPhone from '../../shared/headfooterImg/phone.png'
+import HeaderLogo from '../../shared/headfooter/0algeasort logo  1.jpg'
+import HeaderGmail from '../../shared/headfooter/envelope-alt.png'
+import HeaderPhone from '../../shared/headfooter/phone.png'
+import { HomePage } from '../../pages/homePage/HomePage';
 
 
 export const Header = () => {
   
 
   return (
-    <div className='header'>
+    <div className='header '>
       <div className='header-data container'>
         <div>
           <img className='header-data-logo headfooter-mainLogo' src={HeaderLogo} alt="" />
