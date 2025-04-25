@@ -15,7 +15,7 @@ export const routesArr = [
     element: <HomePage />
   },
   {
-    path: 'AboutPage',
+    path: 'aboutPage',
     title: 'О компании',
     element: <AboutPage />
   },
