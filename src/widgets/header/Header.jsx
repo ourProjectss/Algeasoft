@@ -34,7 +34,7 @@ export const Header = () => {
           <NavLink className='link' to={''} >УСЛУГИ</NavLink>
           <NavLink className='link' to={''}>ПОДДЕРЖКА</NavLink>
           <NavLink className='link' to={''}>БИЗНЕС-КЕЙСЫ</NavLink>
-          <NavLink className='link' to={'AboutPage'} >О КОМПАНИИ</NavLink>
+          <NavLink className='link' to={'/aboutPage'} >О КОМПАНИИ</NavLink>
           <NavLink className='link' to={''}>ВОПРОС-ОТВЕТ</NavLink>
           <NavLink className='link' to={''}>КОНТАКТЫ</NavLink>
         </nav>

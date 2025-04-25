@@ -1,0 +1,62 @@
+.services_block_container{
+    width:450px ;
+    margin-top: 4vw;
+    
+}
+.services_block_container>h3{
+   
+}
+.services_block_container>a{
+    position: relative;
+    color: rgb(19, 159, 21);
+    font-family: Roboto;
+font-weight: 900;
+font-size: 22px;
+line-height: 100%;
+letter-spacing: 0%;
+margin-top: 2vw;
+}
+.services_img:hover{
+    transform: scale(1.15, 1.15);
+
+}
+
+.services_text2{
+    width: 30%;
+    font-family: Roboto;
+font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+letter-spacing: 3%;
+
+}
+
+.buner{
+  
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+   margin-top: 5vw;
+    img{
+        width: 100%;
+        margin: 0;
+    }
+}
+
+.services{
+    margin-top: 8vw;
+    margin-left: 2vw;
+    
+}
+
+
+.services>h1{
+    font-family: Roboto;
+font-weight: 500;
+font-size: 45px;
+line-height: 100%;
+letter-spacing: 0%;
+
+color: rgb(30, 127, 15);
+}
