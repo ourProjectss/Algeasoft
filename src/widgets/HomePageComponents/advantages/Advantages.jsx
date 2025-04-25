@@ -1,7 +1,7 @@
 import React from 'react'
 import home from '../../../shared/homepageImages/advantages/home-alt.png'
 import './advantages.scss'
-export default function Advantages() {
+export const Advantages =()=> {
   return (
     <div className='advantages '>
         <div className='advantages_block'>
