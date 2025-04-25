@@ -1,0 +1,41 @@
+.belive_backround {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-image: url(../../../shared/homepageImages/belive/back.jpg);
+  position: relative;
+  opacity: 4;
+}
+
+.belive {
+    height: 100vh;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 3vw;
+}
+
+.belive_block {
+  display: flex;
+  justify-content: space-around;
+  padding: 10vw;
+  text-align: start;
+  
+}
+.belive_firstText {
+  width: 60%;
+  margin-left: 20vw;
+}
+
+.belive_block_card {
+  max-width: 300px;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 6px;
+  padding: 30px;
+  opacity: 0.5;
+}

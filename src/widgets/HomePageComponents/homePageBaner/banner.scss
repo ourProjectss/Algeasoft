@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.video-background-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+
+  .video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; // заполняет всё окно, как фон
+    z-index: 0;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4); // затемнение
+    z-index: 1;
+  }
+}
+
+.banner {
+  position: relative;
+  z-index: 2; // поверх видео
+  // тут уже твои стили
+}
+
+.video-background-container::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4); // полупрозрачная тень
+  z-index: 1;
+}
+
+.banner {
+  position: relative;
+  z-index: 2;
+}
+
+.banner {
+  width: 100%;
+  color: aliceblue;
+
+  
+  background-repeat: no-repeat;
+  background-size: 78%;
+  background-position: top right;
+  position: relative;
+  height: 100vh;
+  &_left {
+    position: absolute;
+    left: 2vw;
+    margin-top: 10vw;
+    margin-left: 4vw;
+    &_firstText {
+      color: rgb(28, 144, 57);
+      font-size: 4vw;
+      font-family: Roboto;
+font-weight: 500;
+font-size: 44px;
+line-height: 130%;
+letter-spacing: 0%;
+
+    }
+    &_twoText {
+      &_secondText {
+        font-size: 3vw;
+       width: 50%;
+        font-family: Roboto;
+font-weight: 500;
+font-size: 44px;
+line-height: 130%;
+letter-spacing: 0%;
+
+      }
+    }
+    &_thirdText {
+      font-size: 2vw;
+      width: 50%;
+      font-family: Roboto;
+font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+letter-spacing: 3%;
+margin: 4vw 0 ;
+    }
+    &_block {
+      display: none;
+    }
+    &_buttons {
+      
+      &_first {
+        border: solid rgb(30, 164, 63) 0.3vw;
+        border-radius: 0.6vw;
+        width: 30%;
+        height: 3vw;
+        color: rgb(28, 144, 57);
+        font-size: 1.3vw;
+        height: 3.6vw;
+        background-color: black;
+      }
+      &_second {
+        border: solid rgb(30, 164, 63) 0.3vw;
+        border-radius: 0.6vw;
+        width: 35%;
+        height: 3vw;
+        color: rgb(28, 144, 57);
+        font-size: 1.3vw;
+        height: 3.6vw;
+        background-color: black;
+        margin-left: 1.9vw;
+      }
+      &_first:hover {
+        background-color: rgb(30, 164, 63);
+        color: aliceblue;
+      }
+      &_second:hover {
+        background-color: rgb(30, 164, 63);
+        color: aliceblue;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .banner {
+    background-size: 150%;
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    &_left {
+      width: 8 0vw;
+
+      align-items: center;
+      margin-left: 2vw;
+      background-color: aliceblue;
+      height: auto;
+      border-radius: 20px;
+      opacity: 0.7;
+      color: rgb(56, 135, 41);
+      &_twoText {
+        &_secondText {
+          text-align: center;
+          width: 90%;
+
+          margin-left: 5vw;
+        }
+      }
+      &_thirdText {
+        text-align: center;
+        width: 90%;
+        margin-left: 5vw;
+      }
+      &_block {
+        display: block;
+      }
+      &_buttons {
+        padding: 20px;
+        
+        &_first {
+          width: 23%;
+          height: 5vw;
+          background-color: aliceblue;
+        }
+        &_second {
+          height: 5vw;
+          background-color: aliceblue;
+        }
+      }
+    }
+  }
+}
