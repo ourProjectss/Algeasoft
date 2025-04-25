@@ -1,7 +1,7 @@
 import React from "react";
 import "./belive.scss";
 
-export default function Belive() {
+export const  Belive  =()=> {
   return (
     <div className="belive_backround">
     <div className="belive">

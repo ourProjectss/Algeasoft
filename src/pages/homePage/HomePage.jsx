@@ -1,9 +1,5 @@
-import Advantages from "../../widgets/HomePageComponents/advantages/Advantages";
-import Belive from "../../widgets/HomePageComponents/belive/Belive";
 
-import HomePageBaner from "../../widgets/HomePageComponents/homePageBaner/HomePageBaner";
-import Servrices from "../../widgets/HomePageComponents/services/Servrices";
-
+import { Belive,Advantages ,Servrices,HomePageBaner} from "../../widgets/index"
 
 export const HomePage = () => {
   return (

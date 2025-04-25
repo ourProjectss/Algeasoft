@@ -2,7 +2,7 @@ import React from "react";
 import "./services.scss";
 import services_images from "../../../shared/homepageImages/services/Rectangle 23 (6).jpg";
 
-export default function Servrices() {
+export const Servrices=() =>{
   return (
     <div className="services">
       <h1 className="services_text1">Наши услуги</h1>

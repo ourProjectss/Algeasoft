@@ -1,7 +1,7 @@
 import React from "react";
 import "./banner.scss";
 
-export default function HomePageBaner() {
+export const  HomePageBaner =() => {
   return (
     <div>
       <div className="video-background-container">
