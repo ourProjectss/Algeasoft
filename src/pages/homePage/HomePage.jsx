@@ -10,6 +10,7 @@ export const HomePage = () => {
     <div className="">
       <HomePageBaner/>
       <div
+      
         style={{
           marginTop: '-5vw',
           zIndex: 2,
