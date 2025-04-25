@@ -1,0 +1,10 @@
+.aboutUs{
+    display: flex;
+    margin-top: 5%;
+    &-text{
+        padding: 10px 80px;
+        &-title{
+            color: #219653;
+        }
+    }
+}

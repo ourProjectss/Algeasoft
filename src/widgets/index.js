@@ -1,4 +1,6 @@
 export { Footer } from './footer/Footer'
 export { Header } from './header/Header'
 export { HomePageBaner } from './HomePageComponents/homePageBaner/HomePageBaner'
-// export { AboutPageComponents } from './AboutPageComponents'
+export { AboutBaner } from './AboutPageComponents/aboutBaner/AboutBaner'
+export { AboutServices } from './AboutPageComponents/aboutServices/AboutServices'
+export { AboutUs } from './AboutPageComponents/aboutUs/AboutUs'

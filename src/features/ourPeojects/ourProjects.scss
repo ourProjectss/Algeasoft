@@ -1,0 +1,18 @@
+.ourProjects{
+    margin-top: 5%;
+
+    &-title{
+        color: #219653;
+        text-align: center;
+    }
+    &-images{
+        margin-top: 4%;
+        display: flex;
+        align-items: center;
+
+        &-img{
+            width: 90%;
+        }
+    }
+    
+}

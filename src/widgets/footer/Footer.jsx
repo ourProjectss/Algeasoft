@@ -38,7 +38,7 @@ export const Footer = () => {
             <h3 className="footer-block-text-first-number headfooter-number">+7 (000)00 00 000</h3>
           </div>
           <div className="footer-block-text-second">
-            <img className="footer-block-text-first-logo haedfooter-logo" headdfooter-logo src={footerGmail} alt="" />
+            <img className="footer-block-text-first-logo haedfooter-logo" src={footerGmail} alt="" />
             <h3 className="footer-block-text-first-number headfooter-number">INFO@MAIL.COM</h3>
           </div>
         </div>
