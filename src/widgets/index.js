@@ -3,9 +3,8 @@ export { Header } from './header/Header'
 export { AboutBaner } from './AboutPageComponents/aboutBaner/AboutBaner'
 export { AboutServices } from './AboutPageComponents/aboutServices/AboutServices'
 export { AboutUs } from './AboutPageComponents/aboutUs/AboutUs'
-export {HomePageBaner} from './HomePageComponents/homePageBaner/HomePageBaner'
-export {Advantages} from './HomePageComponents/advantages/Advantages'
-export {Belive} from "./HomePageComponents/belive/Belive"
-export {Servrices} from "./HomePageComponents/services/Servrices"
-
-// export { AboutPageComponents } from './AboutPageComponents'
+export { HomePageBaner } from './HomePageComponents/homePageBaner/HomePageBaner'
+export { Advantages } from './HomePageComponents/advantages/Advantages'
+export { Belive } from "./HomePageComponents/belive/Belive"
+export { Servrices } from "./HomePageComponents/services/Servrices"
+export { Support } from './Support/Support'

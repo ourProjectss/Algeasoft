@@ -3,7 +3,6 @@ import { NavLink } from 'react-router-dom';
 import HeaderLogo from '../../shared/headfooter/0algeasort logo  1.jpg'
 import HeaderGmail from '../../shared/headfooter/envelope-alt.png'
 import HeaderPhone from '../../shared/headfooter/phone.png'
-import { HomePage } from '../../pages/homePage/HomePage';
 
 
 export const Header = () => {
@@ -33,7 +32,7 @@ export const Header = () => {
         <nav className='header-block-links'>
           <NavLink className='link' to={'/'}>ГЛАВНАЯ</NavLink>
           <NavLink className='link' to={''} >УСЛУГИ</NavLink>
-          <NavLink className='link' to={''}>ПОДДЕРЖКА</NavLink>
+          <NavLink className='link' to={'/support'}>ПОДДЕРЖКА</NavLink>
           <NavLink className='link' to={''}>БИЗНЕС-КЕЙСЫ</NavLink>
           <NavLink className='link' to={'/aboutPage'} >О КОМПАНИИ</NavLink>
           <NavLink className='link' to={''}>ВОПРОС-ОТВЕТ</NavLink>

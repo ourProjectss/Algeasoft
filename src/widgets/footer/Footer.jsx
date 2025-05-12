@@ -16,7 +16,7 @@ export const Footer = () => {
           <nav className="footer-block-Links">
             <NavLink className='link' to={'/'}>ГЛАВНАЯ</NavLink>
             <NavLink className='link'>УСЛУГИ</NavLink>
-            <NavLink className='link'>ПОДДЕРЖКА</NavLink>
+            <NavLink className='link' to={'/support'}>ПОДДЕРЖКА</NavLink>
             <NavLink className='link'>БИЗНЕС-КЕЙС</NavLink>
           </nav>
         </div>

@@ -4,6 +4,7 @@ import '../styles/app.scss';
 import { 
   HomePage,
   AboutPage,
+  SupportPage,
 
 } from '../../pages'
 import { Footer } from '../../widgets/footer/Footer';
@@ -19,6 +20,11 @@ export const routesArr = [
     title: 'О компании',
     element: <AboutPage />
   },
+  {
+    path: 'support',
+    title: 'Поддержка',
+    element: <SupportPage />
+  }
 ];
 
 function App() {

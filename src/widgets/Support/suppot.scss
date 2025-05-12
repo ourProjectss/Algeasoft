@@ -1,0 +1,38 @@
+.support{
+    margin-top: 5%;
+
+    &-text{
+        &-title{
+            font-size: 50px;
+            color: #219653;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        &-description{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    }
+    &-inputs{
+        width: 300px;
+        &-input{
+            width: 100%;
+            height: 40px;
+            margin-top: 5%;
+            border: 3px solid grey;
+            padding: 0 10px ;
+
+            &-message{
+                height: 60px;
+                padding: 0px 10px 15px;
+            }
+        }
+    }
+    &-button{
+        width: 200px;
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+        background-color: #219653;
+        margin-top: 3%;
+        color: white;
+    }
+}
